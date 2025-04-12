@@ -1,5 +1,5 @@
 # Cripto Currency
-Aplicativo destinado a listas cripto moedas (por ordem de relevância), exibir informações delas, permitir buscar por uma cripto moeda especifica e apresentar detalhes dela.
+Aplicativo destinado a listar cripto moedas (por ordem de relevância), exibir informações delas, permitir buscar por uma cripto moeda especifica e apresentar detalhes dela.
 
 ![Home](/src/assets/readmeImages/cripto-currency-home.png)
 
