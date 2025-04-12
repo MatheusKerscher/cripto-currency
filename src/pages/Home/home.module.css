@@ -1,0 +1,154 @@
+.container {
+    margin-bottom: 12px;
+}
+
+.form-container {
+    display: flex;
+    gap: 8px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px 6px;
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    color: var(--white);
+    transition: all 0.3s ease-in-out;
+}
+
+.form-container input:focus {
+    border-color: var(--blue);
+}
+
+.form-container button {
+    background-color: transparent;
+}
+
+.form-container button svg {
+    color: var(--white);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    table-layout: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+table caption {
+    font-size: 16px;
+    margin: 0.5em 0 0.75em;
+}
+
+th {
+    color: var(--gray);
+}
+
+.table-line {
+    background-color: var(--color-secondary);
+}
+
+.table-line td {
+    color: var(--white);
+}
+
+th:first-child,
+td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+th:last-child,
+td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr td:last-child span {
+    font-weight: bold;
+}
+
+.cripto-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.cripto-name img {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cripto-name img:hover {
+    transform: scale(1.5);
+    z-index: 9;
+}
+
+.table-line-profit {
+    color: var(--green);
+}
+
+.table-line-loss {
+    color: var(--red);
+}
+
+.load-more-button {
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.load-more-button svg {
+    margin-right: 4px;
+}
+
+/* Layout mobile */
+@media screen and (max-width: 600px) {
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        position: absolute;
+        width: 1px;
+    }
+
+    td,
+    th {
+        border-radius: 0;
+    }
+
+    .table-line {
+        display: block;
+        margin-bottom: 12px;
+        border-radius: 8px;
+    }
+
+    .table-line td {
+        display: block;
+        text-align: right;
+    }
+
+    .table-line td::before {
+        content: attr(data-label);
+        float: left;
+        color: var(--gray);
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .cripto-name {
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,24 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 74px);
+}
+
+.not-found-container h2 {
+    color: var(--white);
+}
+
+.not-found-container p {
+    color: var(--gray);
+    margin: 4px 0 24px 0;
+}
+
+.not-found-container a {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    padding: 4px 8px;
+    border-radius: 8px;
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1080px;
+    padding: 16px 0;
+}
+
+.logo {
+    font-size: 28px;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bold;
+    user-select: none;
+}
+
+.logo span {
+    color: var(--blue);
+}
