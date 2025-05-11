@@ -1,5 +1,5 @@
 # Cripto Currency
-Website destinado a listas cripto moedas (por ordem de popularidade), exibir informações delas, permitir buscar por uma cripto moeda específica e apresentar detalhes dela.
+Website destinado a listar cripto moedas (por ordem de popularidade), exibir informações delas, permitir buscar por uma cripto moeda específica e apresentar detalhes dela.
 
 ![Home](/thumbnail.png)
 
